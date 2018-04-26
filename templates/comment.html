@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ 	<meta charset="UTF-8">
+ 	<meta name="Keywords" content="comment,projecy"
+ 	<meta name="Description" content="Users can leave comments and feeling ">
+ 	<title>Project Comment</title>
+ 	
+<style type="text/css">
+*{margin:0px; padding:0px;}
+body{background:url("static/images/bg.jpg");}
+#qq{width:600px; height:170px; background:#fff; 
+	margin:50px auto 30px; border-radius:5px;}
+#qq p{font-size:12px; color:#666; font-family:"Gerogia";
+		line-height:45px; text-indent:20px;}
+#qq .message{width:560px; height:70px;margin:0px auto; outline:none;
+			border:1px solid #ddd; }
+#qq .But{width:560px;height:35px;margin:15px auto 0px; position:relative;}
+#qq .But img.bq{float:left;}
+#qq .But span.submit{width:80px;height:30px; background:#ff8140;					display:block; float:right;							line-height:30px;border-radius:5px;								cursor:pointer;  color:#fff;font-size:12px;					text-align:center;font-family:"Gerogia";}
+
+
+#qq .But .face{width:390px; height:160px; background:#fff; padding:10px;
+				border:1px solid #ddd; box-shadow:2px 2px 3px #666;
+				position:absolute;  top:21px; left:15px;
+				display:none;}
+#qq .But .face ul li{width:22px;height:22px; 
+				list-style-type:none;  float:left;
+				margin:2px; cursor:pointer;}
+
+
+.msgCon{width:600px;height:500px; margin:0px auto;}
+.msgCon .msgBox{ background:#fff;
+				padding:10px; margin-top:20px;}
+.msgCon .msgBox dl{height:60px; border-bottom:1px dotted #ddd;}
+.msgCon .msgBox dl dt{width:50px; height:50px;float:left;}
+.msgCon .msgBox dl dt img{border-radius:25px;}
+.msgCon .msgBox dl dd{width:500px; height:50px;  line-height:50px;float:right; font-size:16px;font-family:"Gerogia";}
+.msgCon .msgBox .msgTxt{font-size:12px; color:#666; line-height:25px;}
+</style>
+<br>
+<br>
+<p><a href="home.html"> Return to home page </a></p>
+ </head>
+ <body>
+
+<div id="qq">
+	<p>Say something ...</p>
+	<div class="message" contentEditable='true'></div>
+
+	<div class="But">
+		<img src="static/images/bba_thumb.gif" class='bq'/>
+		<span class='submit'>Submit</span>
+		<!--face begin-->
+		<div class="face">
+			<ul>
+				
+				
+				<li><img src="static/images/fuyun_thumb.gif" title="[1]"></li>
+				<li><img src="static/images/wg_thumb.gif" title="[2]"></li>
+				<li><img src="static/images/vw_thumb.gif" title="[3]"></li>
+				<li><img src="static/images/panda_thumb.gif" title="[4]]"></li>
+				<li><img src="static/images/rabbit_thumb.gif" title="[4]"></li>
+				<li><img src="static/images/otm_thumb.gif" title="[5]"></li>
+				<li><img src="static/images/j_thumb.gif" title="[6]"></li>
+				<li><img src="static/images/liwu_thumb.gif" title="[7]"></li>
+				<li><img src="static/images/smilea_thumb.gif" title="[8]"></li>
+				<li><img src="static/images/tootha_thumb.gif" title="[9]"></li>
+				<li><img src="static/images/laugh.gif" title="[10]"></li>
+				<li><img src="static/images/tza_thumb.gif" title="[11]"></li>
+				<li><img src="static/images/kl_thumb.gif" title="[12]"></li>
+				<li><img src="static/images/kbsa_thumb.gif" title="[13]"></li>
+				<li><img src="static/images/cj_thumb.gif" title="[14]"></li>
+				<li><img src="static/images/shamea_thumb.gif" title="[15]"></li>
+				<li><img src="static/images/zy_thumb.gif" title="[16]"></li>
+				<li><img src="static/images/bz_thumb.gif" title="[17]"></li>
+				<li><img src="static/images/bs2_thumb.gif" title="[18]"></li>
+				<li><img src="static/images/lovea_thumb.gif" title="[19]"></li>
+				<li><img src="static/images/sada_thumb.gif" title="[20]"></li>
+				<li><img src="static/images/heia_thumb.gif" title="[21]"></li>
+				<li><img src="static/images/qq_thumb.gif" title="[22]"></li>
+				<li><img src="static/images/sb_thumb.gif" title="[23]"></li>
+				<li><img src="static/images/mb_thumb.gif" title="[24]"></li>
+				<li><img src="static/images/ldln_thumb.gif" title="[25]"></li>
+				<li><img src="static/images/yhh_thumb.gif" title="[26]"></li>
+				<li><img src="static/images/zhh_thumb.gif" title="[27]"></li>
+				<li><img src="static/images/x_thumb.gif" title="[28]"></li>
+				<li><img src="static/images/cry.gif" title="[29]]"></li>
+				<li><img src="static/images/wq_thumb.gif" title="[30]"></li>
+				<li><img src="static/images/t_thumb.gif" title="[31]"></li>
+				<li><img src="static/images/k_thumb.gif" title="[32]"></li>
+				<li><img src="static/images/bba_thumb.gif" title="[33]"></li>
+				<li><img src="static/images/angrya_thumb.gif" title="[34]"></li>
+				<li><img src="static/images/yw_thumb.gif" title="[35]"></li>
+				<li><img src="static/images/cza_thumb.gif" title="[36]"></li>
+				<li><img src="static/images/88_thumb.gif" title="[37]"></li>
+				<li><img src="static/images/sk_thumb.gif" title="[38]"></li>
+				<li><img src="static/images/sweata_thumb.gif" title="[39]"></li>
+				<li><img src="static/images/sleepya_thumb.gif" title="[40]"></li>
+				<li><img src="static/images/sleepa_thumb.gif" title="[41]"></li>
+				<li><img src="static/images/money_thumb.gif" title="[42]"></li>
+				<li><img src="static/images/sw_thumb.gif" title="[43]"></li>
+				<li><img src="static/images/cool_thumb.gif" title="[44]"></li>
+				<li><img src="static/images/hsa_thumb.gif" title="[45]"></li>
+				<li><img src="static/images/hatea_thumb.gif" title="[46]"></li>
+				<li><img src="static/images/gza_thumb.gif" title="[47]"></li>
+				<li><img src="static/images/dizzya_thumb.gif" title="[48]"></li>
+				<li><img src="static/images/bs_thumb.gif" title="[49]"></li>
+				<li><img src="static/images/crazya_thumb.gif" title="[50]"></li>
+				<li><img src="static/images/h_thumb.gif" title="[51]"></li>
+				<li><img src="static/images/yx_thumb.gif" title="[52]"></li>
+				<li><img src="static/images/nm_thumb.gif" title="[53]"></li>
+				<li><img src="static/images/hearta_thumb.gif" title="[54]"></li>
+				<li><img src="static/images/unheart.gif" title="[55]"></li>
+				<li><img src="static/images/pig.gif" title="[56]"></li>
+				<li><img src="static/images/ok_thumb.gif" title="[ok]"></li>
+				<li><img src="static/images/ye_thumb.gif" title="[58]]"></li>
+				<li><img src="static/images/good_thumb.gif" title="[good]"></li>
+				<li><img src="static/images/no_thumb.gif" title="[no]"></li>
+				<li><img src="static/images/z2_thumb.gif" title="[61]"></li>
+				<li><img src="static/images/come_thumb.gif" title="[62]"></li>
+				<li><img src="static/images/sad_thumb.gif" title="[63]"></li>
+				<li><img src="static/images/lazu_thumb.gif" title="[64]"></li>
+				<li><img src="static/images/clock_thumb.gif" title="[65]"></li>
+				<li><img src="static/images/cake.gif" title="[66]"></li>
+				<li><img src="static/images/m_thumb.gif" title="[67]"></li>
+				<li><img src="static/images/weijin_thumb.gif" title="[68]"></li>
+				<li><img src="static/images/lxhzhuanfa_thumb.gif" title="[69]"></li>
+				<li><img src="static/images/lxhluguo_thumb.gif" title="[70]"></li>
+				<li><img src="static/images/bofubianlian_thumb.gif" title="[71]"></li>
+				<li><img src="static/images/gbzkun_thumb.gif" title="[72]"></li>
+				<li><img src="static/images/boboshengmenqi_thumb.gif" title="[73]"></li>
+				<li><img src="static/images/chn_buyaoya_thumb.gif" title="[74]"></li>
+				<li><img src="static/images/daxiongleibenxiong_thumb.gif" title="[75]"></li>
+				<li><img src="static/images/cat_yunqizhong_thumb.gif" title="[76]"></li>
+				<li><img src="static/images/youqian_thumb.gif" title="[77]"></li>
+				<li><img src="static/images/cf_thumb.gif" title="[78]"></li>
+				<li><img src="static/images/camera_thumb.gif" title="[79]"></li>	
+			</ul>
+		</div>
+		<!--face end-->
+	</div>
+</div>
+<!--qq end-->
+<div id="time1"></div>
+<!--msgCon begin-->
+<div class="msgCon">
+
+
+
+
+</div>
+
+<script type="text/javascript" src="static/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+
+	
+	$(".bq").click(function(e){
+		$(".face").slideDown();
+		e.stopPropagation();   
+	});
+
+	
+	$(document).click(function(){
+		$(".face").slideUp();
+	});
+
+	
+	$(".face ul li").click(function(){
+		var simg=$(this).find("img").clone();
+		$(".message").append(simg);
+	});
+
+	
+	$("span.submit").click(function(){
+
+		var txt=$(".message").html();
+		if(txt==""){
+			$('.message').focus();
+			return;
+		}
+
+		$(".msgCon").prepend("<div class='msgBox'><dl><dt><img src='static/images/tx.jpg' width='50' height='50'/></dt><dd>40000011</dd></dl><div class='msgTxt'>"+txt+"</div></div>");
+	});
+
+</script>
+
+
+ </body>
+</html>
